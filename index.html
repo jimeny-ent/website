@@ -30,7 +30,14 @@
         <section id="home" class="hero">
             <!-- Hero image should be placed in an 'images' folder -->
             <!-- Placeholder: Replace with actual hero image -->
-            <img src="images/hero.jpg" alt="Cozy British living room" width="1200" height="600">
+            <img src="images/hero.jpg" 
+     srcset="images/hero-small.jpg 500w,
+             images/hero-medium.jpg 1000w,
+             images/hero.jpg 1500w"
+     sizes="(max-width: 500px) 100vw,
+            (max-width: 1000px) 50vw,
+            33vw"
+     alt="Cozy British living room">
             <h1>Bring a Touch of British Charm to Your Home</h1>
             <p>Discover quality home, health, and beauty products from the heart of Britain and Europe</p>
         </section>
@@ -48,26 +55,28 @@
 
         <section id="products">
             <h2>Product Categories</h2>
-            <div class="product-category">
-                <h3>Home</h3>
-                <!-- Home category icon should be placed in an 'images' folder -->
-                <!-- Placeholder: Replace with actual icon -->
-                <img src="images/home-icon.png" alt="Home category icon" width="100" height="100">
-                <p>Transform your living space into a cozy British retreat. From plush cushions to elegant tableware, our home collection brings comfort and style to every corner.</p>
-            </div>
-            <div class="product-category">
-                <h3>Health</h3>
-                <!-- Health category icon should be placed in an 'images' folder -->
-                <!-- Placeholder: Replace with actual icon -->
-                <img src="images/health-icon.png" alt="Health category icon" width="100" height="100">
-                <p>Embrace wellness the British way. Discover natural remedies, soothing teas, and holistic health products that have stood the test of time in Britain and Europe.</p>
-            </div>
-            <div class="product-category">
-                <h3>Beauty</h3>
-                <!-- Beauty category icon should be placed in an 'images' folder -->
-                <!-- Placeholder: Replace with actual icon -->
-                <img src="images/beauty-icon.png" alt="Beauty category icon" width="100" height="100">
-                <p>Unveil your natural radiance with our curated beauty essentials. From classic British skincare secrets to innovative European cosmetics, find your perfect beauty regime.</p>
+            <div class="product-categories">
+                <div class="product-category">
+                    <h3>Home</h3>
+                    <!-- Home category icon should be placed in an 'images' folder -->
+                    <!-- Placeholder: Replace with actual icon -->
+                    <img src="images/home-icon.png" alt="Home category icon" width="100" height="100">
+                    <p>Transform your living space into a cozy British retreat. From plush cushions to elegant tableware, our home collection brings comfort and style to every corner.</p>
+                 </div>
+                 <div class="product-category">
+                     <h3>Health</h3>
+                     <!-- Health category icon should be placed in an 'images' folder -->
+                     <!-- Placeholder: Replace with actual icon -->
+                     <img src="images/health-icon.png" alt="Health category icon" width="100" height="100">
+                     <p>Embrace wellness the British way. Discover natural remedies, soothing teas, and holistic health products that have stood the test of time in Britain and Europe.</p>
+                 </div>
+                 <div class="product-category">
+                     <h3>Beauty</h3>
+                     <!-- Beauty category icon should be placed in an 'images' folder -->
+                     <!-- Placeholder: Replace with actual icon -->
+                     <img src="images/beauty-icon.png" alt="Beauty category icon" width="100" height="100">
+                    <p>Unveil your natural radiance with our curated beauty essentials. From classic British skincare secrets to innovative European cosmetics, find your perfect beauty regime.</p>
+                 </div>
             </div>
         </section>
 
